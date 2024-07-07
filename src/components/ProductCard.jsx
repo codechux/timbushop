@@ -3,11 +3,6 @@ import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {
   return (
-    // <Link
-    //   to={`/product/${product.id}`}
-    //   target="_blank"
-    //   rel="noopener noreferrer"
-    // >
     <div className="bg-white p-4 rounded-lg shadow-lg">
       <img
         src={product.image}
@@ -25,7 +20,6 @@ const ProductCard = ({ product }) => {
       </div>
       <p className="text-sm text-gray-500 mt-2">{product.category}</p>
     </div>
-    // </Link>
   );
 };
 
