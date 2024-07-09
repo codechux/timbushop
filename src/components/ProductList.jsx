@@ -57,14 +57,14 @@ const ProductList = ({ products }) => {
         </div>
         <div className="flex space-x-2">
           <button onClick={() => setViewType("grid")}>
-            <img src={Grid} alt="" className="h-8 w-8" />
+            <img src={Grid} alt="Grid view" className="h-8 w-8" />
           </button>
           <button onClick={() => setViewType("list")}>
-            <img src={Sort} alt="" className="h-8 w-8" />
+            <img src={Sort} alt="List view" className="h-8 w-8" />
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {currentProducts.map((product) => (
           <Link to={`/product/${product.id}`} key={product.id}>
             <ProductCard product={product} />

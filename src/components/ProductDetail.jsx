@@ -30,9 +30,9 @@ const ProductDetail = () => {
   }, [product, relatedProducts]);
 
   return (
-    <div className="flex flex-col p-8">
-      <div className="flex">
-        <div className="w-1/2 p-4">
+    <div className="flex flex-col p-4 md:p-8">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full md:w-1/2 p-2 md:p-4">
           <img
             src={product.image}
             alt={product.name}
@@ -49,10 +49,12 @@ const ProductDetail = () => {
             ))}
           </div>
         </div>
-        <div className="w-1/2 p-4">
+        <div className="w-full md:w-1/2 p-2 md:p-4">
           <p className="text-gray-500">Designed {product.year}</p>
-          <h1 className="text-3xl font-bold">{product.title}</h1>
-          <p className="text-2xl text-yellow-500">${product.price}</p>
+          <h1 className="text-2xl md:text-3xl font-bold">{product.title}</h1>
+          <p className="text-xl md:text-2xl text-yellow-500">
+            ${product.price}
+          </p>
           <p className="mt-4">COLOR</p>
           <div className="flex mt-2">
             {product.colors.map((color, index) => (
@@ -90,14 +92,14 @@ const ProductDetail = () => {
           </div>
           <div className="flex items-center gap-4 mt-6">
             <button className="border-2 p-2">
-              <img src={Favorite} alt="" />
+              <img src={Favorite} alt="Favorite" />
             </button>
             <button className="border-2 p-2">
-              <img src={Share} alt="" />
+              <img src={Share} alt="Share" />
             </button>
             <Link to="/cart">
               <button className="bg-blue-500 text-white p-3 flex gap-2 rounded">
-                <img src={Carticon} alt="" /> ADD TO CART
+                <img src={Carticon} alt="Cart" /> ADD TO CART
               </button>
             </Link>
           </div>

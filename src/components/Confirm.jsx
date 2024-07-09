@@ -8,7 +8,7 @@ const Confirm = () => {
   return (
     <div className="container mx-auto p-6">
       <div className="flex flex-col lg:flex-row justify-between mb-6 gap-5">
-        <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
+        <div className="hidden md:block w-full lg:w-1/2 mb-6 lg:mb-0">
           <h1 className="text-3xl font-bold mb-2">Cart Overview</h1>
           <p className="text-gray-600 mb-6">
             Items in your cart are not reserved - check out now to make them
@@ -94,28 +94,26 @@ const Confirm = () => {
         </div>
 
         <div className="w-full lg:w-1/2 bg-white p-6 rounded-md border-2">
-          <div className="flex justify-center mb-6">
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center text-blue-500">
-                <div className="h-8 w-8 rounded-full border-2 border-blue-500 flex items-center justify-center">
-                  1
-                </div>
-                <p className="ml-2">Shipping</p>
+          <div className="flex flex-wrap items-center justify-between mb-6 space-y-4 lg:space-y-0">
+            <div className="flex items-center text-blue-500 space-x-2">
+              <div className="h-6 w-6 lg:h-8 lg:w-8 rounded-full border-2 border-blue-500 flex items-center justify-center">
+                1
               </div>
-              <div className="w-12 border-t border-blue-500"></div>
-              <div className="flex items-center text-blue-500">
-                <div className="h-8 w-8 rounded-full border-2 border-blue-500 flex items-center justify-center">
-                  2
-                </div>
-                <p className="ml-2">Payment</p>
+              <p className="text-xs lg:text-base">Shipping</p>
+            </div>
+            <div className="flex-1 border-t border-gray-300 mx-2"></div>
+            <div className="flex items-center text-blue-500 space-x-2">
+              <div className="h-6 w-6 lg:h-8 lg:w-8 rounded-full border-2 border-blue-500 flex items-center justify-center">
+                2
               </div>
-              <div className="w-12 border-t border-blue-500"></div>
-              <div className="flex items-center text-blue-500">
-                <div className="h-8 w-8 rounded-full border-2 border-blue-500 flex items-center justify-center">
-                  3
-                </div>
-                <p className="ml-2">Confirm Order</p>
+              <p className="text-xs lg:text-base">Payment</p>
+            </div>
+            <div className="flex-1 border-t border-gray-300 mx-2"></div>
+            <div className="flex items-center text-gray-500 space-x-2">
+              <div className="h-6 w-6 lg:h-8 lg:w-8 rounded-full border-2 border-gray-500 flex items-center justify-center">
+                3
               </div>
+              <p className="text-xs lg:text-base">Confirmation</p>
             </div>
           </div>
 

@@ -46,7 +46,7 @@ const productHome = () => {
             applyFilters={applyFilters}
           />
         </div>
-        <div className="w-3/4 p-4">
+        <div className="p-4">
           <ProductList products={products} />
         </div>
       </div>

@@ -7,15 +7,15 @@ const CartOverview = () => {
   return (
     <div className="container mx-auto p-6">
       <div className="flex flex-col lg:flex-row justify-between mb-6 gap-5">
-        <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
+        <div className="hidden lg:block w-full lg:w-1/2 mb-6 lg:mb-0">
           <h1 className="text-3xl font-bold mb-2">Cart Overview</h1>
           <p className="text-gray-600 mb-6">
             Items in your cart are not reserved - check out now to make them
             yours
           </p>
 
-          <div className="mb-4 p-4 border-2 rounded-md flex items-center justify-between">
-            <div className="flex items-center">
+          <div className="mb-4 p-4 border-2 rounded-md flex flex-col sm:flex-row items-center justify-between">
+            <div className="flex items-center mb-4 sm:mb-0">
               <img
                 src={image1}
                 alt="Scandinavian Sofa"
@@ -26,7 +26,7 @@ const CartOverview = () => {
                 <p className="text-gray-600">Aqua Globes</p>
               </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center mb-4 sm:mb-0">
               <button className="bg-gray-200 text-gray-600 px-2 py-1 rounded-md">
                 -
               </button>
@@ -35,16 +35,16 @@ const CartOverview = () => {
                 +
               </button>
             </div>
-            <div>
+            <div className="mb-4 sm:mb-0">
               <p className="font-semibold">$349.00</p>
             </div>
-            <button className="ml-4">
+            <button className="ml-0 sm:ml-4">
               <img src={delete1} alt="Delete" className="h-6 w-6" />
             </button>
           </div>
 
-          <div className="mb-4 p-4 border-2 rounded-md flex items-center justify-between">
-            <div className="flex items-center">
+          <div className="mb-4 p-4 border-2 rounded-md flex flex-col sm:flex-row items-center justify-between">
+            <div className="flex items-center mb-4 sm:mb-0">
               <img
                 src={image1}
                 alt="Sleeper Sofa"
@@ -55,7 +55,7 @@ const CartOverview = () => {
                 <p className="text-gray-600">Aqua Globes</p>
               </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center mb-4 sm:mb-0">
               <button className="bg-gray-200 text-gray-600 px-2 py-1 rounded-md">
                 -
               </button>
@@ -64,10 +64,10 @@ const CartOverview = () => {
                 +
               </button>
             </div>
-            <div>
+            <div className="mb-4 sm:mb-0">
               <p className="font-semibold">$349.00</p>
             </div>
-            <button className="ml-4">
+            <button className="ml-0 sm:ml-4">
               <img src={delete1} alt="Delete" className="h-6 w-6" />
             </button>
           </div>
@@ -83,21 +83,21 @@ const CartOverview = () => {
         <div className="w-full lg:w-1/2 bg-white p-6 rounded-md border-2">
           <div className="flex justify-center mb-6">
             <div className="flex items-center space-x-4">
-              <div className="flex items-center text-blue-500">
+              <div className="md:flex flex-col items-center text-blue-500">
                 <div className="h-8 w-8 rounded-full border-2 border-blue-500 flex items-center justify-center">
                   1
                 </div>
                 <p className="ml-2">Shipping</p>
               </div>
-              <div className="w-12 border-t border-gray-300"></div>
-              <div className="flex items-center text-gray-500">
+              <div className="md:w-12 border-t border-gray-300"></div>
+              <div className="md:flex flex-col justify-center items-center text-gray-500">
                 <div className="h-8 w-8 rounded-full border-2 border-gray-500 flex items-center justify-center">
                   2
                 </div>
                 <p className="ml-2">Payment</p>
               </div>
-              <div className="w-12 border-t border-gray-300"></div>
-              <div className="flex items-center text-gray-500">
+              <div className="md:w-12 border-t border-gray-300"></div>
+              <div className="md:flex flex-col items-center text-gray-500">
                 <div className="h-8 w-8 rounded-full border-2 border-gray-500 flex items-center justify-center">
                   3
                 </div>
@@ -151,7 +151,7 @@ const CartOverview = () => {
                   placeholder="Enter your email address"
                 />
               </div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label
                     className="block text-sm font-medium mb-1"
@@ -183,7 +183,7 @@ const CartOverview = () => {
                   />
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label
                     className="block text-sm font-medium mb-1"

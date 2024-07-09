@@ -16,7 +16,7 @@ const initialCartItems = [
   },
   {
     id: 2,
-    name: "Sleeper Sofa",
+    name: "Scandinavian Sofa",
     brand: "Aqua Globes",
     price: 349.0,
     quantity: 1,
