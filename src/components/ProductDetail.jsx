@@ -3,6 +3,9 @@ import { useParams } from "react-router-dom";
 import products from "../products";
 import RelatedProducts from "../components/RelatedProducts";
 import { Link } from "react-router-dom";
+import Favorite from "../assets/favorite.png";
+import Share from "../assets/share.png";
+import Carticon from "../assets/carticon.png";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -85,11 +88,19 @@ const ProductDetail = () => {
               +
             </button>
           </div>
-          <Link to="/cart">
-            <button className="bg-blue-500 text-white p-3 mt-6">
-              ADD TO CART
+          <div className="flex items-center gap-4 mt-6">
+            <button className="border-2 p-2">
+              <img src={Favorite} alt="" />
             </button>
-          </Link>
+            <button className="border-2 p-2">
+              <img src={Share} alt="" />
+            </button>
+            <Link to="/cart">
+              <button className="bg-blue-500 text-white p-3 flex gap-2 rounded">
+                <img src={Carticon} alt="" /> ADD TO CART
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
       <RelatedProducts relatedProducts={relatedProducts} />
