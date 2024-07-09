@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
 import { Link } from "react-router-dom";
+import Grid from "../assets/grid.png";
+import Sort from "../assets/sort.png";
 
 const ProductList = ({ products }) => {
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -54,17 +56,11 @@ const ProductList = ({ products }) => {
           </select>
         </div>
         <div className="flex space-x-2">
-          <button
-            className="p-2 border rounded"
-            onClick={() => setViewType("grid")}
-          >
-            Grid
+          <button onClick={() => setViewType("grid")}>
+            <img src={Grid} alt="" className="h-8 w-8" />
           </button>
-          <button
-            className="p-2 border rounded"
-            onClick={() => setViewType("list")}
-          >
-            List
+          <button onClick={() => setViewType("list")}>
+            <img src={Sort} alt="" className="h-8 w-8" />
           </button>
         </div>
       </div>

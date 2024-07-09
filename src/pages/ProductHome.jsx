@@ -6,6 +6,7 @@ import useFilters from "../filters";
 import { categories, materials, brands, colors } from "../constant";
 import ProductList from "../components/ProductList";
 import products from "../products";
+import Footer from "../components/Footer";
 
 const productHome = () => {
   const {
@@ -26,7 +27,7 @@ const productHome = () => {
       <Header />
       <Hero />
       <div className="flex">
-        <div className="w-1/4 p-4">
+        <div className="hidden md:block w-1/4 p-4">
           <Filter
             categories={categories}
             selectedCategory={selectedCategory}
@@ -49,6 +50,7 @@ const productHome = () => {
           <ProductList products={products} />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

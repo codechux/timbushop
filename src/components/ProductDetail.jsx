@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import products from "../products";
 import RelatedProducts from "../components/RelatedProducts";
+import { Link } from "react-router-dom";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -47,7 +48,7 @@ const ProductDetail = () => {
         </div>
         <div className="w-1/2 p-4">
           <p className="text-gray-500">Designed {product.year}</p>
-          <h1 className="text-3xl font-bold">{product.name}</h1>
+          <h1 className="text-3xl font-bold">{product.title}</h1>
           <p className="text-2xl text-yellow-500">${product.price}</p>
           <p className="mt-4">COLOR</p>
           <div className="flex mt-2">
@@ -84,9 +85,11 @@ const ProductDetail = () => {
               +
             </button>
           </div>
-          <button className="bg-blue-500 text-white p-3 mt-6">
-            ADD TO CART
-          </button>
+          <Link to="/cart">
+            <button className="bg-blue-500 text-white p-3 mt-6">
+              ADD TO CART
+            </button>
+          </Link>
         </div>
       </div>
       <RelatedProducts relatedProducts={relatedProducts} />

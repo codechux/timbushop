@@ -18,7 +18,7 @@ const Filter = ({
   applyFilters,
 }) => {
   return (
-    <div className="bg-white p-4 rounded-lg shadow-lg mb-4">
+    <div className="hidden md:block bg-white p-4 rounded-lg shadow-lg mb-4">
       {/* Categories */}
       <div className="mb-4">
         <h3 className="text-lg font-semibold mb-2">Categories</h3>

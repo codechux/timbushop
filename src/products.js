@@ -85,6 +85,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 8,
@@ -95,6 +96,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 9,
@@ -105,6 +107,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 10,
@@ -115,6 +118,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 11,
@@ -125,6 +129,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 12,
@@ -135,6 +140,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 13,
@@ -145,6 +151,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 14,
@@ -155,6 +162,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 15,
@@ -165,6 +173,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 16,
@@ -175,6 +184,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 17,
@@ -185,6 +195,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 18,
@@ -195,6 +206,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 19,
@@ -205,6 +217,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 20,
@@ -215,6 +228,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 21,
@@ -225,6 +239,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 22,
@@ -235,6 +250,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 23,
@@ -245,6 +261,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 24,
@@ -255,6 +272,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 25,
@@ -265,6 +283,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 26,
@@ -275,6 +294,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 27,
@@ -285,6 +305,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 28,
@@ -295,6 +316,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 29,
@@ -305,6 +327,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 30,
@@ -315,6 +338,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 31,
@@ -325,6 +349,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 32,
@@ -335,6 +360,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 33,
@@ -345,6 +371,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 34,
@@ -355,6 +382,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 35,
@@ -365,6 +393,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 36,
@@ -375,6 +404,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 37,
@@ -385,6 +415,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 38,
@@ -395,6 +426,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 39,
@@ -405,6 +437,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 40,
@@ -415,6 +448,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 41,
@@ -425,6 +459,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 42,
@@ -435,6 +470,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 43,
@@ -445,6 +481,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 44,
@@ -455,6 +492,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 45,
@@ -465,6 +503,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
   {
     id: 46,
@@ -476,8 +515,9 @@ const products = [
       count: 50,
     },
     description: "A stylish Scandinavian sofa with a minimalist design.",
-    category: "Sofas",
+    category: "Sofa",
   },
+
   {
     id: 47,
     title: "Green Sofa Chair",
@@ -487,6 +527,7 @@ const products = [
       rate: 4,
       count: 50,
     },
+    category: "sofa",
   },
 ];
 
